@@ -778,9 +778,10 @@ background-color: var(--accent-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
-    margin-bottom: 4px;
+
     color: var(--title-text-color);
+
+    margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -788,6 +789,7 @@ background-color: var(--accent-color);
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 0;
 }
 
 .portfolio-btn-list {
@@ -953,6 +955,11 @@ background-color: var(--accent-color);
 .modal-icon {
     align-items: center;
 }
+
+.modal-icon-item:hover {
+fill: var(--accent-color);
+}
+
 
   .modal-btn {
     position: absolute;
